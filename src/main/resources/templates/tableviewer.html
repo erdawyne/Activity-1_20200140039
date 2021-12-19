@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Table Viewer</div>
+        <hr />
+        <p th:text="${ekspedisi}"></p>
+        <table>
+            <tr th:each="baki:$(tabel)">
+                <td th:text="${baki[01]}"></td>
+                <td th:text="${baki[02]}"></td>
+                <td th:text="${baki[03]}"></td>
+                <td th:text="${baki[04]}"></td>
+                <td th:text="${baki[05]}"></td>
+                <td th:text="${baki[06]}"></td>
+                <td th:text="${baki[07]}"></td> 
+                <td th:text="${baki[08]}"></td>
+                <td th:text="${baki[09]}"></td> 
+                <td th:text="${baki[10]}"></td>
+                <td th:text="${baki[11]}"></td>
+                <td th:text="${baki[12}}"></td> 
+                <td th:text="${baki[13]}"></td> 
+                <td th:text="${baki[14]}"></td> 
+                <td th:text="${baki[15]}"></td> 
+                <td th:text="${baki[16]}"></td> 
+                <td th:text="${baki[17]}"></td> 
+                <td th:text="${baki[18]}"></td> 
+                <td th:text="${baki[19]}"></td> 
+                <td th:text="${baki[20]}"></td> 
+            <tr>
+            </table>
+        
+    </body>
+</html>
